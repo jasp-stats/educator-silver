@@ -1,0 +1,52 @@
+
+
+module.exports = function () {
+  const keywords = {
+    modules: [
+      ["Unrelated", "", "boutinb"],
+      ["Acceptance Sampling", "Module: jaspAcceptanceSampling", "pankajrsingla"],
+      ["ANOVA", "Module: jaspAnova", "JohnnyDoorn"],
+      ["Audit", "Module: jaspAudit", "koenderks"],
+      ["Bain", "Module: jaspBain", "koenderks"],
+      ["Bsts", "Module: jaspBsts", "vandenman"],
+      ["Circular Statistics", "Module: jaspCircular", "Kucharssim"],
+      ["Cochrane Meta-Analyses", "Module: jaspCochrane", "FBartos"],
+      ["Descriptives","Module: jaspDescriptives", "vandenman"],
+      ["Distributions","Module: jaspDistributions", "Kucharssim"],
+      ["Equivalence T-Tests","Module: jaspEquivalenceTTests", "Jillderon"],
+      ["Factor","Module: jaspFactor", "juliuspfadt"],
+      ["Frequencies","Module: jaspFrequencies", "FBartos"],
+      ["JAGS", "Module: jaspJags", "vandenman"],
+      ["Learn Bayes", "Module: jaspLearnBayes", "Kucharssim"],
+      ["Learn Stats", "Module: jaspLearnStats", "JTPeter"],
+      ["Machine Learning","Module: jaspMachineLearning", "koenderks"],
+      ["Meta Analysis","Module: jaspMetaAnalysis", "FBartos"],
+      ["Mixed Models","Module: jaspMixedModels", "FBartos"],
+      ["Network","Module: jaspNetwork", "vandenman"],
+      ["Power", "Module: jaspPower", "jansim"],
+      ["Predictive Analytics", "Module: jaspPredictiveAnalytics", "petersen-f"],
+      ["Process", "Module: jaspProcess", "maltelueken"],
+      ["Prophet","Module: jaspProphet", "Kucharssim"],
+      ["Quality Control","Module: jaspQualityControl", "JTPetter"],
+      ["Regression","Module: jaspRegression", "Kucharssim"],
+      ["Reliability", "Module: jaspReliability", "juliuspfadt"],
+      ["Robust T-Tests","Module: jaspRobustTTests", "FBartos"],
+      ["SEM", "Module: jaspSem", "juliuspfadt"],
+      ["Summary Statistics","Module: jaspSummaryStatistics", "vandenman"],
+      ["Survival","Module: jaspSurvival", "FBartos"],
+      ["T-Tests","Module: jaspTTests", "vandenman"],
+      ["Time Series", "Module: jaspTimeSeries", "sophieberkhout"],
+      ["Visual Modeling","Module: jaspVisualModeling", "dustinfife"],
+      ["Other", "", "Kucharssim"],
+      ["_No response_", "", "EJWagenmakers"]
+    ], 
+    oses: [
+      ["macOS Intel", "OS: macOS Intel"],
+      ["macOS Silicon", "OS: macOS Silicon"],
+      ["Windows 10", "OS: Windows 10"], 
+      ["Windows 11", "OS: Windows 11"], 
+      ["Linux|Flatpak|Ubuntu|Debian|Fedora|Arch|Manjaro|PopOs|ChromeOS", "OS: Linux / Flatpak"]
+    ]
+  };
+  return keywords;
+}

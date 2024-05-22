@@ -20,7 +20,7 @@
 ### Reporting Issues
 This repository is solely meant for reporting and tracking any issues that JASP supporters might wish to report.
 An issue can be a bug, feature request or something else. <br>
-To report click <a href="https://github.com/jasp-stats/supporter-issues/issues">issues</a> here or close to the top of the page.
+To report click <a href="https://github.com/jasp-stats/educator-silver/issues">issues</a> here or close to the top of the page.
 
 ### Development
 Development of JASP is done in <a href="https://github.com/jasp-stats/jasp-desktop">jasp-desktop</a>
